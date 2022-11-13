@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="600.0" prefWidth="600.0" style="-fx-background-color: gray;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controller.ChatController">
+
+
+
+        <TextArea fx:id="txtHistory" layoutX="129.0" layoutY="64.0" prefHeight="229.0" prefWidth="426.0" AnchorPane.bottomAnchor="207.0" AnchorPane.rightAnchor="45.0">
+
+        </TextArea>
+
+
+        <TextArea fx:id="txtMessage" layoutX="129.0" layoutY="434.0" prefHeight="95.0" prefWidth="322.0" AnchorPane.bottomAnchor="71.0" AnchorPane.leftAnchor="129.0">
+
+        </TextArea>
+
+
+    <Button defaultButton="true" onAction="#sendMsg" prefHeight="50" text="Send" textAlignment="CENTER" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+
+    </Button>
+<!--   <Label layoutX="300.0" layoutY="404.0" text="Message" />-->
+<!--   <WebView layoutX="166.0" layoutY="29.0" prefHeight="200.0" prefWidth="200.0" />-->
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+
+</AnchorPane>

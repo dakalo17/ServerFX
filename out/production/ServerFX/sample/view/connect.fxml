@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="sample.controller.ConnectController"
+            prefHeight="400.0" prefWidth="600.0">
+
+    <Label text="Connect to user" AnchorPane.leftAnchor="30" AnchorPane.topAnchor="50"></Label>
+    <TextField fx:id="txtConnect" AnchorPane.topAnchor="50" AnchorPane.leftAnchor="150"></TextField>
+    <Button text="Start server" AnchorPane.leftAnchor="150" AnchorPane.topAnchor="100" onAction="#connect"></Button>
+    <Button text="Connect" AnchorPane.leftAnchor="300" AnchorPane.topAnchor="100" onAction="#waitconnect"></Button>
+
+    <Label fx:id="lblStatus" style="-fx-text-fill:red;" text="RRREEDDD"
+           AnchorPane.leftAnchor="50" AnchorPane.topAnchor="150"></Label>
+</AnchorPane>
